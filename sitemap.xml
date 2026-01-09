@@ -18,15 +18,11 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://velosloth.ca/books.html</loc>
+  <loc>https://velosloth.ca/blog.html</loc>
   <lastmod>2025-08-25T18:07:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://velosloth.ca/mantras.html</loc>
-  <lastmod>2025-08-25T18:07:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 
 
 </urlset>
