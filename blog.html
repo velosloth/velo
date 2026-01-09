@@ -159,6 +159,12 @@
 									 Your Group Policy Objects can still be applied via Intune, as well as pushing updates (replace WSUS), pushing application installs & uninstalls, remote lock & wipe options, Antivirus monitoring, the list goes on.
 									 
 								</p>
+								<p>Less need for Domain Controllers<br>
+								I still recommend having an on-premises Domain Controller, but in a hybrid situation, the DC is used for user creation, and thats about it.  You don't need a robust system to provide this service.</p>
+								<p>Less requirement for file servers.  You can move your shared files to Sharepoint sites, eliminating the requirement for VPN connections to access file servers, and upkeep of said file server.</p>
+								<p>Tighter controls over Conditional Access.  You can lock down file access to joined systems only, geographical location, the operating system of the client, the antivirus status, etc.</p>
+								<p>For mobile devices such as iPads or Mobile phones, you can enforce and manage PINs to prevent the dreaded iPad lockout when someone forgot their PIN.  This can simply be reset via Intune.</p>
+								<p>Intune can also remote lock or wipe devices in situations where they are misplaced or stolen.</p>
 								<footer>
 								<!---	<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -192,5 +198,4 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-
 </html>
